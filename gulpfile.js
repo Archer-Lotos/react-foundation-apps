@@ -93,3 +93,4 @@ gulp.task('dist-min', function (cb) {
 });
 
 gulp.task('dist', runSequence('dist-clean', 'dist-unmin', 'dist-min'));
+// gulp.task('dist', runSequence('dist-clean'));
